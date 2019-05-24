@@ -3,4 +3,4 @@
 val=input("val please")
 
 for i in reversed(val):
-    print (i)
+    print ("10.23.232.",i)
