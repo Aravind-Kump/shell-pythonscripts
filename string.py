@@ -2,4 +2,4 @@
 
 string="Hello Aravind"
 
-print string[7]
+print (string[7])
