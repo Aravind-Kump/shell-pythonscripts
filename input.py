@@ -1,8 +1,11 @@
 #!/usr/bin/python
 
-val=input("Enter some value")
+val = float(input("Enter some integer:"))
 
-if val==0:
-    print ("Value is zero")
+if val >= 0:
+    if val == 0:
+        print("Value is zero")
+    else:
+        print("Value is +ve",val)
 else:
-    print (val)
+    print("Val is negative",val)
